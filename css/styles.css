@@ -19,6 +19,7 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-color);
   letter-spacing: 0.03em;
+  margin: 0;
 }
 ul{
   padding: 0;
@@ -206,7 +207,8 @@ ul{
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.logo.foot {
+.foot {
+  margin: 0;
 }
 .addres {
   list-style: none;
@@ -215,6 +217,9 @@ ul{
   line-height: 1.71;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
+  align-items: baseline;
+  gap: 9px;
 }
 .addres address {
   font-style: normal;
@@ -224,6 +229,10 @@ ul{
   text-decoration: none;
   color: var(--fourth-text-color);
 }
+.addres-item {
+  flex-basis: calc(100% -18px) / 2;
+}
+
 .mail a:hover,
 .mail a:focus,
 .phone a:hover,
@@ -234,6 +243,12 @@ ul{
 .filters,
 .project-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.filters {
+  gap: 8px;
+  padding-bottom: 50px;
 }
 .filters button {
   font-family: "Roboto";
@@ -243,21 +258,35 @@ ul{
   line-height: 1.62;
   font-weight: 500;
   cursor: pointer;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border-radius: 4px;
+  transition: 0.3s;
 }
 .filters button:focus,
 .filters button:hover {
   color: var(--main-color);
   background-color: var(--point-color);
 }
+.project-list {
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.project {
+  border-bottom: 1px solid #EEEEEE;
+}
 .project h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
+  margin: 20px 24px;
 }
 .project p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.88;
+  color: var(--third-text-color);
+  margin: 4px 24px 20px;
 }
 .section {
   padding-top: 94px;

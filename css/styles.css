@@ -133,7 +133,7 @@ ul{
   padding: 0;
 }
 .asset {
-  flex-basis: calc((100%-30px)/4);
+  flex-basis: calc((100% - 30px) / 4);
 }
 .asset h4 {
   font-size: 14px;
@@ -158,7 +158,7 @@ ul{
   font-weight: 700;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 50;
+  margin-bottom: 50px;
 }
 .work-list {
   list-style: none;
@@ -230,7 +230,7 @@ ul{
   color: var(--fourth-text-color);
 }
 .addres-item {
-  flex-basis: calc(100% -18px) / 2;
+  flex-basis: calc((100% - 18px) / 2);
 }
 
 .mail a:hover,

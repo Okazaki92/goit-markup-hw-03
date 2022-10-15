@@ -11,7 +11,7 @@
 }
 .container {
   width: 1200px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
 body {
@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
 }
-ul{
+ul {
   padding: 0;
   margin: 0;
 }
@@ -66,11 +66,11 @@ ul{
   color: var(--third-text-color);
 }
 .menu-item {
-    margin-right: 46px;
-    justify-content: space-evenly;
+  margin-right: 46px;
+  justify-content: space-evenly;
 }
 .menu-item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 .contacts {
   margin-left: 371px;
@@ -86,16 +86,29 @@ ul{
   background-color: var(--second-color);
   color: var(--second-text-color);
   letter-spacing: 0.06em;
-  margin: 0;
+  margin: 0;  
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+.head{
   display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+
 }
 .heading h1 {
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
   text-transform: uppercase;
-  margin: 106px 237px 30px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  width: 696px;
+
 }
 .heading button {
   background-color: var(--point-color);
@@ -110,7 +123,6 @@ ul{
   padding: 10px 41px 10px 42px;
   transition: color 0.2s;
   letter-spacing: 0.06em;
-  margin-bottom: 106px;
 }
 .heading button:hover,
 .heading button:focus {
@@ -121,8 +133,8 @@ ul{
   border-bottom: 1px solid #ececec;
 }
 .header-menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 /* ATUTY */
 .assets-list {
@@ -273,7 +285,7 @@ ul{
   flex-wrap: wrap;
 }
 .project {
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #eeeeee;
 }
 .project h3 {
   font-size: 18px;

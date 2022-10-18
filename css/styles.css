@@ -25,6 +25,12 @@ ul {
   padding: 0;
   margin: 0;
 }
+h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
 /* LOGO */
 .logo {
   text-decoration: none;
@@ -206,6 +212,8 @@ ul {
 }
 .team-card h3 {
   font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-card img {
   display: block;
@@ -213,6 +221,7 @@ ul {
 .team-card p {
   color: var(--third-text-color);
   font-weight: 400;
+  margin-bottom: 30px;
 }
 .footer {
   background-color: var(--second-color);
@@ -285,23 +294,34 @@ ul {
   flex-wrap: wrap;
 }
 .project {
-  border-bottom: 1px solid #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
 }
 .project h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  margin: 20px 24px;
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 .project p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.88;
   color: var(--third-text-color);
-  margin: 4px 24px 20px;
+  margin-left: 24px;
+}
+.project img {
+  display: block;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
   margin: 0;
+}
+.title {
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
